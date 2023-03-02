@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.2">
+	<title xml:lang="ko">디시콘 관리 모듈</title>
+	<description xml:lang="ko">게시판을 통해 디시콘 목록을 생성하고 관리할 수 있도록 합니다.</description>
+	<version>1.0.0</version>
+	<date>2023-03-02</date>
+	<category>service</category>
+	<author email_address="lastorder@lastorder.xyz" link="https://lastorder.xyz">
+		<name xml:lang="ko">Lastorder-DC</name>
+	</author>
+</module>

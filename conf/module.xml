@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+	<grants>
+	</grants>
+	<actions>
+		<!-- 관리자 액션 -->
+		<action name="dispDcconAdminConfig" type="view" menu_name="dccon" admin_index="true" />
+		<action name="procDcconAdminInsertConfig" type="controller" />
+		<action name="dispDcconCreateList" type="view" global-route="true">
+			<route route="dccon/$target_mid:word/dccon_list.js" />
+		</action>
+	</actions>
+	<menus>
+		<menu name="dccon" type="all">
+			<title xml:lang="ko">디시콘 관리 모듈</title>
+		</menu>
+	</menus>
+</module>

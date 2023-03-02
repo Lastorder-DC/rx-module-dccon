@@ -6,8 +6,8 @@
 		<!-- 관리자 액션 -->
 		<action name="dispDcconAdminConfig" type="view" menu_name="dccon" admin_index="true" />
 		<action name="procDcconAdminInsertConfig" type="controller" />
-		<action name="dispDcconCreateList" type="view" global-route="true">
-			<route route="dccon/$target_mid:word/dccon_list.js" />
+		<action name="procDcconGenList" type="controller" method="GET|POST" standalone="true">
+			<route route="dccon_list.js" />
 		</action>
 	</actions>
 	<menus>

@@ -16,12 +16,4 @@ class DcconView extends Dccon
 	{
 		
 	}
-	
-	/**
-	 * 메인 화면 예제
-	 */
-	public function dispDcconIndex()
-	{
-		
-	}
 }
